@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  repo: MikolajChybowski/jekyll-netlify-netlifycms
+  branch: main
+
+site_url: https://todo.com
+logo_url: /assets/images/theme/logo.svg
+show_preview_links: true
+publish_mode: editorial_workflow
+search: true
+local_backend: true
+media_folder: assets/images/uploads
+
+collections:
+- label: 'Strony'
+  name: pages
+  editor:
+    preview: false
+  files:
+    - label: 'Strona główna'
+      name: homepage
+      file: 'pages/index.md'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }

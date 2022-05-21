@@ -1,0 +1,25 @@
+{
+  "name": "todo-jekyll-netlify-netlifycms",
+  "version": "1.0.0",
+  "description": "todo-jekyll-netlify-netlifycms",
+  "main": "index.js",
+  "scripts": {
+    "install": "bundle install",
+    "dev": "concurrently --kill-others \"JEKYLL_ENV=development bundle exec jekyll serve\" \"npx netlify-cms-proxy-server\"",
+    "build": "printf \"url: %s\" \"$DEPLOY_PRIME_URL\" >> _config.yml; JEKYLL_ENV=production bundle exec jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikolajChybowski/jekyll-netlify-netlifycms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikolajChybowski/jekyll-netlify-netlifycms/issues"
+  },
+  "homepage": "https://github.com/MikolajChybowski/jekyll-netlify-netlifycms#readme",
+  "dependencies": {
+    "concurrently": "^7.2.0",
+    "normalize.css": "^8.0.1"
+  }
+}

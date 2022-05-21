@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="pl">
+
+  {% include head.html %}
+
+  {% if jekyll.environment == "development" %}
+    {% include viewport-size.html %}
+  {% elsif jekyll.environment == "production" %}
+    <body>
+  {% endif %}
+
+    <main>
+      {{ content }}
+    </main>
+
+  </body>
+</html>

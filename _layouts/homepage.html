@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /
+---
+<script src="/assets/js/netlify-identity-widget.js"></script>
+
+<h1>{{ page.title }}</h1>
+
+<p>Aktualne site.url: {{ site.url }}</p>
+
+<div>
+  {% capture path %}/assets/images/uploaded/nut.jpg{% endcapture %}
+  {% responsive_image_block %}
+    path: {{ path | slice: 1, path.size }}
+    alt: test
+    title: test
+    width: 800
+    height: 1000
+  {% endresponsive_image_block %}
+</div>

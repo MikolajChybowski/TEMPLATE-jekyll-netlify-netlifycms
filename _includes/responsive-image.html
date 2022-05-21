@@ -1,0 +1,13 @@
+<picture>
+  {% for i in resized %}
+    <source media="(min-width: {{ i.width }}px)" srcset="{% if site.url contains 'preview' %}{{ site.url }}{% endif %}/{{ i.path }}" width="{{ i.width }}"
+            height="{{ i.height }}" {% if loading %} loading="{{ loading }}" {% endif%}>
+  {% endfor %}
+  <img src="{% if site.url contains 'preview' %}{{ site.url }}{% endif %}/{{ path }}"
+       {% if alt %} alt="{{ alt }}" {% endif %}
+       {% if title %} title="{{ title }}" {% endif %}
+       {% if class %} class="{{ class }}" {% endif %}
+       {% if width %} width="{{ width }}" {% endif %}
+       {% if height %} height="{{ height }}" {% endif %}
+       {% if loading %} loading="{{ loading }}" {% endif %}>
+</picture>

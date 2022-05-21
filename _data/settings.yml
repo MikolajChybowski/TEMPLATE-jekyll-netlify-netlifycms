@@ -1,0 +1,8 @@
+seo:
+  title: Title
+  description: Description
+  image: image.jpg
+logo:
+  white: logo-white.svg
+  black: logo-black.svg
+  favicon: favicon.svg

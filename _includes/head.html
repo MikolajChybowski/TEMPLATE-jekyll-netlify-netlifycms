@@ -1,0 +1,44 @@
+<head>
+  <!-- TODO: -->
+  <!-- Preload fonts -->
+  <!-- <link rel="preload" href="/assets/fonts/syne-v13-latin-ext-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/syne-v13-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/syne-v13-latin-ext-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/syne-v13-latin-ext-regular.woff2" as="font" type="font/woff2" crossorigin> -->
+
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#EA543C">
+
+  <!-- SEO -->
+  <title>{{ site.data.settings.seo.title }}</title>
+  <meta name="title" content="{{ site.data.settings.seo.title }}">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+
+  <!-- SEO - Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:title" content="{{ site.data.settings.seo.title }}">
+  <meta property="og:description" content="{{ site.data.settings.seo.description }}">
+  <meta property="og:image" content="{{ site.data.settings.seo.image }}">
+
+  <!-- SEO Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="twitter:title" content="{{ site.data.settings.seo.title }}">
+  <meta property="twitter:description" content="{{ site.data.settings.seo.description }}">
+  <meta property="twitter:image" content="{{ site.data.settings.seo.image }}">
+
+  <!-- Icons -->
+  <link rel="icon" href="{{ site.data.settings.logo.favicon }}">
+  <link rel="apple-touch-icon" href="{{ site.data.settings.logo.favicon }}">
+
+  <!-- Assets  -->
+  {% if site.url contains 'preview' %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+  {% else %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  {% endif %}
+</head>

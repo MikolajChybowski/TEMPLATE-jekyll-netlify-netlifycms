@@ -1,0 +1,41 @@
+<body onresize="showViewportSize()" onload="showViewportSize()">
+
+<div class="sticky-bottom">
+  <span id="demo">&nbsp;</span>
+</div>
+
+<style>
+  .sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #272727;
+    z-index: 999;
+  }
+
+  .sticky-bottom span {
+    color: white;
+  }
+
+  body {
+    margin-bottom: 30px;
+  }
+</style>
+
+<script>
+  function showViewportSize() {
+    if (window.innerWidth !== undefined && window.innerHeight !== undefined) {
+      var w = window.innerWidth;
+      var h = window.innerHeight;
+    } else {
+      var w = document.documentElement.clientWidth;
+      var h = document.documentElement.clientHeight;
+    }
+    var txt = +w + " x " + h;
+    document.getElementById("demo").innerHTML = txt;
+  }
+</script>

@@ -1,0 +1,41 @@
+netlifycms: true
+
+baseurl: ''
+permalink: pretty
+
+plugins:
+  - jekyll-responsive-image
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+responsive_image:
+  default_quality: 80
+  cache: true
+  strip: true
+  template: _includes/responsive-image.html
+  output_path_format: assets/images/resized/%{filename}-%{width}x%{height}.%{extension}
+  sizes:
+    - width: 1200
+    - width: 1000
+    - width: 800
+    - width: 600
+    - width: 480
+    - width: 320
