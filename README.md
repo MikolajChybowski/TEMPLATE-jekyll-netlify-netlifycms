@@ -1,8 +1,8 @@
 # Jekyll & Netlify & NetlifyCMS Landing page template
 
-Landing page template starter build using [Jekyll](https://jekyllrb.com/), [Netlify](https://www.netlify.com/), [NetlifyCMS](https://www.netlifycms.org/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/16deb651-e3d4-4861-a002-69b3f783e4d3/deploy-status)](https://app.netlify.com/sites/jekyll-netlify-netlifycms/deploys)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MikolajChybowski/jekyll-netlify-netlifycms)
+Landing page template starter build using [Jekyll](https://jekyllrb.com/), [Netlify](https://www.netlify.com/), [NetlifyCMS](https://www.netlifycms.org/).
 
 ## Install
 Install Jekyll:
@@ -20,3 +20,5 @@ Run development mode (Jekyk & NetlifyCMS):
 ```
 npm run dev
 ```
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MikolajChybowski/jekyll-netlify-netlifycms)
