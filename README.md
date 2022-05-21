@@ -2,7 +2,7 @@
 
 Landing page template starter build using [Jekyll](https://jekyllrb.com/), [Netlify](https://www.netlify.com/), [NetlifyCMS](https://www.netlifycms.org/).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MikolajChybowski/jekyll-netlify-netlifycms.git)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/MikolajChybowski/jekyll-netlify-netlifycms)
 
 ## Install
 Install Jekyll:
