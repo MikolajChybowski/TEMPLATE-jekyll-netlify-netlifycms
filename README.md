@@ -1,6 +1,6 @@
 # Jekyll & Netlify & NetlifyCMS Landing page template
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/16deb651-e3d4-4861-a002-69b3f783e4d3/deploy-status)](https://app.netlify.com/sites/jekyll-netlify-netlifycms/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/16deb651-e3d4-4861-a002-69b3f783e4d3/deploy-status)](https://jekyll-netlify-netlifycms.netlify.app/)
 
 Landing page template starter build using [Jekyll](https://jekyllrb.com/), [Netlify](https://www.netlify.com/), [NetlifyCMS](https://www.netlifycms.org/).
 
