@@ -8,7 +8,7 @@ permalink: /
 <p>site.url: {{ site.url }}</p>
 
 <div>
-  {% capture path %}/assets/images/uploaded/nut.jpg{% endcapture %}
+  {% capture path %}/assets/images/uploads/nut.jpg{% endcapture %}
   {% responsive_image_block %}
     path: {{ path | slice: 1, path.size }}
     alt: test
