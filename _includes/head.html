@@ -38,7 +38,9 @@
   <!-- Assets  -->
   {% if site.url contains 'preview' %}
     <link rel="stylesheet" href="{{ site.url }}/assets/css/styles.css">
+    <script src="{{ site.url }}/assets/js/main.js" defer></script>
   {% else %}
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/main.js" defer></script>
   {% endif %}
 </head>
