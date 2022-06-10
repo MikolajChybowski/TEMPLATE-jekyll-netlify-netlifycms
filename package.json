@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "bundle install",
-    "dev": "concurrently --kill-others \"JEKYLL_ENV=development bundle exec jekyll serve\" \"npx netlify-cms-proxy-server\"",
+    "dev": "concurrently --kill-others \"JEKYLL_ENV=development bundle exec jekyll serve --livereload\" \"npx netlify-cms-proxy-server\"",
     "build": "printf \"url: %s\" \"$DEPLOY_PRIME_URL\" >> _config.yml; JEKYLL_ENV=production bundle exec jekyll build"
   },
   "repository": {
