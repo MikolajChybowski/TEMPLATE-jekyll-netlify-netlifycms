@@ -1,7 +1,7 @@
 {
-  "name": "todo-jekyll-netlify-netlifycms",
+  "name": "TEMPLATE-jekyll-netlify-netlifycms",
   "version": "1.0.0",
-  "description": "todo-jekyll-netlify-netlifycms",
+  "description": "TEMPLATE-jekyll-netlify-netlifycms",
   "main": "index.js",
   "scripts": {
     "install": "bundle install",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MikolajChybowski/jekyll-netlify-netlifycms.git"
+    "url": "git+https://github.com/MikolajChybowski/TEMPLATE-jekyll-netlify-netlifycms.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MikolajChybowski/jekyll-netlify-netlifycms/issues"
+    "url": "https://github.com/MikolajChybowski/TEMPLATE-jekyll-netlify-netlifycms/issues"
   },
-  "homepage": "https://github.com/MikolajChybowski/jekyll-netlify-netlifycms#readme",
+  "homepage": "https://github.com/MikolajChybowski/TEMPLATE-jekyll-netlify-netlifycms#readme",
   "dependencies": {
     "concurrently": "^7.2.1",
     "normalize.css": "^8.0.1"
