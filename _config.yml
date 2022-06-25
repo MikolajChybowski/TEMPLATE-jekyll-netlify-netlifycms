@@ -2,6 +2,7 @@ netlifycms: true
 
 baseurl: ''
 permalink: pretty
+url: 'https://todo.com'
 
 plugins:
   - jekyll-responsive-image
