@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/MikolajChybowski/TEMPLATE-jekyll-netlify-netlifycms#readme",
   "dependencies": {
-    "concurrently": "^7.2.2",
+    "concurrently": "^7.3.0",
     "normalize.css": "^8.0.1"
   }
 }
